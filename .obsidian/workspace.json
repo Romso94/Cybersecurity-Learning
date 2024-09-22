@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "071bf0583ee177a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basics/Basics Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c27060733624ec3f",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "dc376e3fa7097e30",
