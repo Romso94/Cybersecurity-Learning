@@ -1,6 +1,9 @@
 
 
-##### Vérifier les droits avec un > sudo -L 
+##### Vérifier les droits avec un > sudo -L  ou 
+```
+find / -perm -u=s -type f 2>/dev/null
+```
 
 
 
