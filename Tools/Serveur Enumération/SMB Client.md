@@ -1,4 +1,4 @@
-```shell-session
+```shell
 smbclient -N -L \\\\10.129.42.253
 ```
 

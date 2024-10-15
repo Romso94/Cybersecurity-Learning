@@ -18,3 +18,5 @@
 | 443   | SSL/TLS ->HTTPS |      |
 | 445   | SMB             |      |
 | 3389  | RDP             |      |
+
+![[Pasted image 20241015165759.png]]
