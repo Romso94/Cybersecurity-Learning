@@ -45,7 +45,7 @@ function generateCode(ast) {
 }
 
 function main() {
-    const filePath = 'PATH.json'; // CHANGE PATH
+    const filePath = '/home/romso/Téléchargements/ch38.json'; // CHANGE PATH
     let ast = loadAST(filePath);
     
     if (!ast) {

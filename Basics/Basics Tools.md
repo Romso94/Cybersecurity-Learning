@@ -48,3 +48,6 @@ whatweb Adresse
 
 > Fichier text pour l'indexation Google et qui donne des informations 
 
+
+
+![[Pasted image 20241015165759.png]]
