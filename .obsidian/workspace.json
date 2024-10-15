@@ -149,5 +149,13 @@
     }
   },
   "active": "3811bb9e784284d0",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Tools/Public Exploits/Outils Pour Trouver des Exploits Publiques.md",
+    "Tools/ReverseShell/PHP.md",
+    "Tools/Web Enumération/GoBuster.md",
+    "Tools/Amélioration du shell.md",
+    "Tools/Serveur Enumération/NMAP.md",
+    "Tools/Privilege Escalation/Privileges escalation.md",
+    "Target Spécification.md"
+  ]
 }
