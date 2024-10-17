@@ -5,5 +5,11 @@
 > Avec python par exemple : 
 
 ```python 
-python3 -c 'import pty; pty.spawn("/bin/bash")'
+Etape 1 : python -c 'import pty; pty.spawn("/bin/bash")'
+
+Etape 2 : export TERM=xterm
+
+Etape 3 : Ctrl + Z 
+
+Etape 4 : stty raw -echo; fg
 ```

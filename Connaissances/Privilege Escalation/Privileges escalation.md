@@ -1,12 +1,10 @@
 
 
-##### Vérifier les droits avec un > sudo -L  ou 
-```
+##### Vérifier les droits avec : 
+```shell
+sudo -L  ou 
 find / -perm -u=s -type f 2>/dev/null
 ```
-
-
-
 
 
 # Tâches planifiées
