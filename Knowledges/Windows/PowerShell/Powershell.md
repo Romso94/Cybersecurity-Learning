@@ -17,7 +17,7 @@ Install-Module -Name "PowerShellGet"
 
 > Equivalent de CD : "Set-Location"
 
-> Pour creer un nouvel item dans PWS : "New-Item"
+> Pour créer un nouvel item dans PWS : "New-Item"
 
 > Equivalent du CAT : "Get-Content -Path"
 

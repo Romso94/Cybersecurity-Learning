@@ -144,6 +144,57 @@ Content-Length: 124
     - This is similar to strict-origin except for same-origin requests, where it sends the full URL path in the origin header.
 
 --- 
+# Fingerprint Web Server
 
+> Banner Grabing to find the version and other informations about a server
+#### Apache
 
+> Apache header looks like : 
+
+```
+HTTP/1.1 200 OK
+Date: Thu, 05 Sep 2019 17:42:39 GMT
+Server: Apache/2.4.41 (Unix)
+Last-Modified: Thu, 05 Sep 2019 17:40:42 GMT
+ETag: "75-591d1d21b6167"
+Accept-Ranges: bytes
+Content-Length: 117
+Connection: close
+Content-Type: text/html
+...
+```
+
+> It follow this order : 
+	- Date
+	- Server
+	- Last-Modified
+	- ETag
+	- Accept-Ranges
+	- Content-Length
+	- Connection
+	- Content-Type
+#### Nginx 
+
+```
+HTTP/1.1 200 OK
+Server: nginx/1.17.3
+Date: Thu, 05 Sep 2019 17:50:24 GMT
+Content-Type: text/html
+Content-Length: 117
+Last-Modified: Thu, 05 Sep 2019 17:40:42 GMT
+Connection: close
+ETag: "5d71489a-75"
+Accept-Ranges: bytes
+...
+```
+
+> It follow like other server this order : 
+
+- Server
+- Date
+- Content-Type
+
+#### Obfuscate Header
+
+To prevent from banner grabing we can obfuscate the information sent by the server in the header.
 

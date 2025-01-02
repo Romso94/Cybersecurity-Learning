@@ -29,7 +29,7 @@
 ## CL.TE - Content-Length / Transfer-Encoding
 
 
-> Creer une requetes pour que le front et le back interprete différemment la requets
+> Créer une requete pour que le front et le back interprètent différemment la requete
 
 Exemple : 
 ```shell-session
@@ -48,7 +48,7 @@ Content-Type: application/x-www-form-urlencoded
 isadmin=true
 ```
 
-> Le front-end voit Content-Length : 130 il va donc prendre la requete jusqu'au "isadmin=true"
+> Le front-end voit Content-Length : 130 il va donc prendre la requête jusqu'au "isadmin=true"
 > Le Back-end lui avec le Transfer-Encoding: chunked il s'arretera au 0 
 
 > Possibilité d'avoir des accès non-autorisés pour un attaquant.
@@ -102,6 +102,7 @@ isadmin=true
 0
 ```
 
-> Le front-end va prendre toute la requetes car T.E : chunked
-> Le back va interpreter différement le chunked1 via le C.L : 4
+> Le front-end va prendre toute la requête car T.E : chunked
+> Le back va interpréter différemment le chunked1 via le C.L : 4
+
 
