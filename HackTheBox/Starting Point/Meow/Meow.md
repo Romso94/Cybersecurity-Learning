@@ -1,7 +1,8 @@
 
 ---
-#telnet #reconaissance #meow #veryeasy 
-Starting Point - Very Easy
+#telnet #reconaissance #meow #veryeasy #starting_point
+
+![[Meow_Info.png]]
 
 ![[Meow_ScreenIP.png]]
 
